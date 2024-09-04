@@ -1339,6 +1339,13 @@ h6 {
   .slider__wrapper:not(:last-child) {
     margin-bottom: 1.25rem
   }
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15
+  }
   .header__body {
     padding: .5625rem 0 .4375rem 0
   }
@@ -1363,7 +1370,7 @@ h6 {
   }
   .hero {
     padding: 2.5rem 0;
-    background: url(../img/hero-bg-mob.svg) center/cover no-repeat #09266a
+    background: url(../img/hero-bg-mob.webp) center/cover no-repeat #09266a
   }
   .hero__body {
     margin-bottom: 2.5rem
